@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos - ONG Esperança</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Projetos da ONG Esperança</h1>
+        <p>Conheça nossas ações e descubra como participar.</p>
+
+        <input type="checkbox" id="menu-toggle">
+
+        <label for="menu-toggle" class="menu-icon">
+            ☰
+        </label>
+
+        <nav>
+            <a href="index.html">Início</a>
+
+            <div class="dropdown">
+                <a href="projetos.html">Projetos</a>
+
+                <div class="dropdown-content">
+                    <a href="#doacoes">Doações</a>
+                    <a href="#voluntariado">Voluntariado</a>
+                </div>
+            </div>
+
+            <a href="cadastro.html">Cadastro</a>
+        </nav>
+
+    </header>
+
+   <main id="app"></main>
+
+
+    <!-- MODAL DE DOAÇÕES -->
+
+    <input type="checkbox" id="modal-doacoes" class="modal-toggle">
+
+    <div class="modal">
+
+        <div class="modal-conteudo">
+
+            <label for="modal-doacoes" class="modal-fechar">
+                ×
+            </label>
+
+            <h2>Informações sobre doações</h2>
+
+            <p>
+                As doações recebidas pela ONG são destinadas à
+                manutenção das ações sociais e ao atendimento
+                das pessoas em situação de vulnerabilidade.
+            </p>
+
+            <span class="badge">DOAÇÃO</span>
+
+            <p>
+                Você pode contribuir com alimentos, roupas,
+                produtos de higiene ou valores.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- MODAL DE VOLUNTARIADO -->
+
+    <input type="checkbox" id="modal-voluntariado" class="modal-toggle">
+
+    <div class="modal">
+
+        <div class="modal-conteudo">
+
+            <label for="modal-voluntariado" class="modal-fechar">
+                ×
+            </label>
+
+            <h2>Informações sobre voluntariado</h2>
+
+            <p>
+                Os voluntários podem colaborar na organização
+                de campanhas, eventos e outras ações sociais
+                realizadas pela ONG.
+            </p>
+
+            <span class="badge badge-voluntariado">
+                VOLUNTARIADO
+            </span>
+
+            <p>
+                Para participar, preencha o cadastro disponível
+                na página de cadastro.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <footer>
+
+        <p>
+            ONG Esperança - Transformando vidas por meio da solidariedade.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
